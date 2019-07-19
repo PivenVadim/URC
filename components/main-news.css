@@ -32,7 +32,9 @@
     color: #595959;
 }
 .main-news_news__list__item__description{
+    font-family: 'Roboto',sans-serif;
     font-size: 18px;
+    line-height: 21px;
     display: block;
     max-height: 114px;
     color: #00284d;
