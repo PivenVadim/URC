@@ -1,0 +1,39 @@
+.main{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-slider{
+    position: relative;
+    width: calc(100% - 291px);
+    height: 620px;
+    margin-bottom: 25px;
+}
+.swiper-conteiner{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+.swiper-wrapper{
+    display: flex;
+    z-index: 1;
+}
+.main-slider_item{
+    width: 609px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main-slider slick-initialized slick-slider{
+    width:935px;
+}

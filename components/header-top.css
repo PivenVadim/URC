@@ -1,0 +1,53 @@
+.header-top{
+width: 1208px;
+height: 65px;
+left: 0px;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(160, 160, 160, 0.25);
+display: flex;
+}
+
+.header-top_left{ 
+    justify-content: flex-start; 
+    margin-top: 7px;
+    margin-left: 18px;
+
+}
+
+.header-top_middle{
+    margin-left: 201px;
+
+justify-content: center;
+}
+
+.header-top_right{
+    margin-top: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.header-top_right__telephone{
+    text-decoration: none;
+    margin-left: 82px;
+    font-family: PT Sans Caption;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    
+    color: #00284D;
+}
+.header-top_right__documents{
+    margin-left: 82px;
+    margin-top: 11px;
+    font-family: PT Sans Caption;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    
+    color: #00284D;
+}

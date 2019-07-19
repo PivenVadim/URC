@@ -1,0 +1,28 @@
+.login-block{
+    position: relative;
+    width: 100%;
+    max-width: 411px;
+    margin: auto;
+    padding: 30px 35px;
+    text-align: center;
+    background: #eff7fe;
+    text-align: center; 
+}
+h1{
+    font-family: PT Sans Caption;
+    font-weight: bold;
+    color: #00284D;
+    font-size: 20px;
+}
+input{
+    font-size: 13px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 34px;
+    padding: 0 15px;
+    color: #595959;
+    border: 1px solid #c2daf1;
+    border-radius: 3px;
+    outline: 0;
+    background: #fff;
+}
